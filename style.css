@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Set the background color and font for the entire page */
 body {
     display: flex;
     justify-content: center;
@@ -18,34 +17,34 @@ body {
     background-position: center;
 }
 
-/* Style the form container */
+
 .box {
     padding: 20px 30px;
-    width: 90%; /* Make the form responsive */
-    max-width: 450px; /* Maximum width for larger screens */
-    height: auto; /* Allow height to adjust based on content */
-    backdrop-filter: blur(20px); /* Less intense blur effect */
+    width: 90%; 
+    max-width: 450px;
+    height: auto; 
+    backdrop-filter: blur(20px);
     border-radius: 30px;
     background: rgba(49, 49, 49, 0.2);
     border: 1px solid rgba(255, 255, 255, 0);
-    margin: 0 auto; /* Center the form horizontally */
-    position: relative; /* For positioning download button */
+    margin: 0 auto;
+    position: relative; 
 }
 
-/* Style the form elements */
+
 .box .form {
     padding: 10px 20px;
 }
 
-/* Main heading styling */
+
 .box .form h1 {
-    text-align: center; /* Center the heading text */
+    text-align: center;
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 24px; /* Adjust font size as needed */
+    font-size: 24px; 
     margin-top: 0;
-    margin-bottom: 20px; /* Adjust spacing below the heading */
+    margin-bottom: 20px; 
 }
 
 /* Sub-heading styling */
@@ -65,54 +64,54 @@ body {
 
 /* Style the input boxes */
 .box .form form .inputbox {
-    margin-bottom: 20px; /* Adjust spacing between input boxes */
+    margin-bottom: 20px;
     position: relative;
 }
 
 .box .form form .inputbox input {
-    padding: 10px 16px; /* Adjust padding for better spacing */
+    padding: 10px 16px; 
     border: none;
     outline: none;
     background: none;
     border-bottom: 1px solid rgb(196, 195, 197);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px; /* Adjust font size */
-    line-height: 1.5; /* Adjust line-height for vertical alignment */
-    letter-spacing: 0.5px; /* Adjust letter-spacing */
+    line-height: 1.5; 
+    letter-spacing: 0.5px; 
     color: #000000;
-    text-align: center; /* Center text horizontally */
-    width: 100%; /* Ensure input fields use full width */
-    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    text-align: center; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
-/* Style the submit button */
+
 .box .form form .sub {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-    padding: 10px 20px; /* Adjust padding for balanced button */
+    padding: 10px 20px;
     color: aliceblue;
     border: none;
     background: rgb(78, 109, 209);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 100%; /* Make button full-width */
+    width: 100%; 
     margin-top: 20px;
 }
 
-/* Hover effect for submit button */
+
 .box .form form .sub:hover {
     background: rgb(58, 89, 189);
 }
 
-/* Style the download button */
+
 .download-btn {
     position: absolute;
     right: 10px;
     bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-    padding: 10px 20px; /* Adjust padding for balanced button */
+    padding: 10px 20px; 
     color: aliceblue;
     border: none;
     background: rgb(92, 209, 108);
@@ -121,71 +120,71 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect for download button */
+
 .download-btn:hover {
     background-color: #45a049;
 }
 
-/* Responsive design adjustments */
+
 @media (max-width: 768px) {
     .box {
-        padding: 15px; /* Adjust padding for smaller tablets */
+        padding: 15px; 
     }
 
     .box .form h1 {
-        font-size: 20px; /* Adjust font size for smaller tablets */
-        margin-bottom: 15px; /* Adjust spacing */
+        font-size: 20px; 
+        margin-bottom: 15px; 
     }
 
     .box .form h2 {
-        font-size: 16px; /* Adjust font size for smaller tablets */
-        margin-bottom: 20px; /* Adjust spacing */
+        font-size: 16px; 
+        margin-bottom: 20px; 
     }
 
     .box .form form .inputbox input {
-        font-size: 14px; /* Adjust font size for smaller tablets */
-        padding: 8px 14px; /* Adjust padding */
+        font-size: 14px;
+        padding: 8px 14px; 
     }
 
     .box .form form .sub {
-        font-size: 14px; /* Adjust font size for smaller tablets */
-        padding: 8px 16px; /* Adjust padding */
+        font-size: 14px;
+        padding: 8px 16px; 
     }
 
     .download-btn {
-        font-size: 14px; /* Adjust font size */
-        padding: 8px 16px; /* Adjust padding */
+        font-size: 14px; 
+        padding: 8px 16px; 
     }
 }
 
 @media (max-width: 480px) {
     .box {
-        padding: 15px; /* Adjust padding for very small screens */
-        width: 90%; /* Ensure the form fits well on mobile devices */
+        padding: 15px; 
+        width: 90%;
     }
 
     .box .form h1 {
-        font-size: 18px; /* Further adjust font size */
-        margin-bottom: 10px; /* Adjust spacing */
+        font-size: 18px; 
+        margin-bottom: 10px; 
     }
 
     .box .form h2 {
-        font-size: 14px; /* Further adjust font size */
-        margin-bottom: 16px; /* Adjust spacing */
+        font-size: 14px; 
+        margin-bottom: 16px; 
     }
 
     .box .form form .inputbox input {
-        font-size: 12px; /* Further adjust font size */
-        padding: 8px 12px; /* Adjust padding */
+        font-size: 12px; 
+        padding: 8px 12px; 
     }
 
     .box .form form .sub {
-        font-size: 12px; /* Further adjust font size */
-        padding: 8px 12px; /* Further adjust padding */
+        font-size: 12px; 
+        padding: 8px 12px; 
     }
 
     .download-btn {
-        font-size: 12px; /* Further adjust font size */
-        padding: 6px 12px; /* Further adjust padding */
+        font-size: 12px; 
+        padding: 6px 12px; 
     }
 }
